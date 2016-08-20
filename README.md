@@ -26,4 +26,5 @@ window.addEventListener('storage',function(e){
 
 ### 不同点
 >localStorage在本地永久性存储数据，除非显式将其删除或清空
+
 >sessionStorage存储的数据只在会话期间有效，关闭浏览器则自动删除
