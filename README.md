@@ -29,10 +29,10 @@ window.addEventListener('storage',function(e){
 
 >sessionStorage存储的数据只在会话期间有效，关闭浏览器则自动删除
 
-学习完了,我们来[实战](https://little-white.github.io/webStorage/)一下
+学习完了,我们来实战一下
 
 ### 测试方法
-* 打开[demo](https://little-white.github.io/webStorage/)
+* 打开<a href="https://little-white.github.io/webStorage/" target="_blank">demo</a>
 * 在localStorage或sessionStorage区域输入内容并提交。关闭此页面,再次打开看发生了什么
 * 在localStorage或sessionStorage区域输入内容并提交。刷新此页面,看发生了什么
-* 再打开另外一个[tab](https://little-white.github.io/webStorage/),提交内容后,看看之前的页面发生了什么
+* 再打开另外一个<a href="https://little-white.github.io/webStorage/" target="_blank">tab</a>,提交内容后,看看之前的页面发生了什么
