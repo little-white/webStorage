@@ -6,7 +6,48 @@
     <link rel="stylesheet" href="semantic.min.css"/>
 </head>
 <body>
+<div class="ui container">
+    <div class="ui message">
+        <div class="header">
+            localStorage
+        </div>
+    </div>
+    <div class="ui segment">
+        <form class="ui form local-storage">
+            <div class="field">
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="First Name">
+            </div>
+            <div class="field">
+                <label>Last Name</label>
+                <input type="text" name="last-name" placeholder="Last Name">
+            </div>
+            <button class="ui button" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="ui divider"></div>
+    <div class="ui message">
+        <div class="header">
+            sessionStorage
+        </div>
+    </div>
+    <div class="ui segment">
+        <form class="ui form session-storage">
+            <div class="field">
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="First Name">
+            </div>
+            <div class="field">
+                <label>Last Name</label>
+                <input type="text" name="last-name" placeholder="Last Name">
+            </div>
+            <button class="ui button" type="submit">Submit</button>
+        </form>
+    </div>
+    <a href="https://github.com/little-white/webStorage/tree/gh-pages">源码</a>
+</div>
 <script src="jquery.min.js"></script>
 <script src="semantic.min.js"></script>
+<script src="web-storage.js"></script>
 </body>
 </html>
